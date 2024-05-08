@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 body {
     font-family: Arial, sans-serif;
+    width: max-content;
 }
 
 /* Style for Header */
@@ -816,26 +816,6 @@ input[type="submit"]:hover {
         margin-top: 5px; ;
         display: inline;
     }
-    #contact{
-        display: flex;
-        justify-content: center;
-        column-count: 3;
-    }
-    .col1{
-        width: 100%;
-        display:flex;
-        flex-flow: wrap;
-    }
-    .videoone{
-        width:100%;
-    }
-    /* .footerimage{
-    
-    } */
-    .video{
-        width: 300px;
-        height: 250px;
-    }
     .group{
        display: flex;
     }
@@ -856,7 +836,7 @@ input[type="submit"]:hover {
     .product2{
         display: flex;
         flex-flow:column;
-        padding: 20px;
+       
     }
     .col1{
         font-size: 12px;
@@ -870,44 +850,6 @@ input[type="submit"]:hover {
         display:flex;
         flex-flow: column;
     }
-    .copyright{
-        position: relative;
-        bottom: 10%;
-        width: 100%;
-    }
-    .containertest {
-        box-sizing: content-box;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-        width: 50%;
-      }
-      
-      .col {
-        display: flex;
-        padding: 20px;
-        column-gap: 30px;
-        margin-bottom: 20px;
-      }
-      .product_foot{
-        width: 50%;
-        font-size: 12px;
-
-      }
-      
-      .col-sm {
-        flex: 1;
-        padding: 1rem;
-        border: 1px solid #ddd;
-      }
-      .cp1{
-        display: flex;
-        width: max-content;
-      }
-      .video{
-        width: 200px;
-        height: 200px;
-      }
-      
+   
    
 }
