@@ -821,6 +821,14 @@ input[type="submit"]:hover {
         justify-content: center;
         column-count: 3;
     }
+    .healthlist{
+        font-size: 75%;
+        margin-bottom: 220px;
+    }
+    .row{
+        padding: 20px;
+        overflow: hidden;
+    }
     .td3{
         display: flex;
     }
@@ -830,10 +838,12 @@ input[type="submit"]:hover {
     .thirdcontainer{
  
     }
-    .col1{
+    .test{
+        margin-top: 150px;
+    }
+    .col{
         width: 100%;
         display:flex;
-        flex-flow: wrap;
     }
     .videoone{
         width:100%;
