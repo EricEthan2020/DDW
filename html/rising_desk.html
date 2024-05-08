@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standing Desk Company</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="../js/basket.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="nav">
+
+                <div class="logo">
+                    <a href="../html/index.html" target="_self"><img src="../images/Standing Desk Ltd.png"
+                            alt="logo"></a>
+                </div>
+
+                <ul class="submenu">
+                    <li>
+                        <a href="../html/index.html">Home</a>
+                        <ul>
+                            <li><a href="../html/height_adjustable_standing_desk.html">Height Adjustable Standing
+                                    Desk</a></li>
+                            <li><a href="../html/lshaped_standing_desk.html">L-Shaped Standing Desk</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../html/rising_desk.html">Rising Desk</a>
+                    </li>
+                    <li>
+                        <a href="../html/contact_us.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="../html/health_benefit.html">Health Benefit</a>
+                    </li>
+                    <li class="basket">
+                        <a href="../html/basket.html">&#x1F6D2;</a>
+                    </li>
+                </ul>
+
+
+                <div class="search">
+                    <input type="text" placeholder="Search..."><i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </nav>
+
+            <div class="headerimg">
+                <img src="../images/header.jpg" alt="header">
+                <p>A STANDING DESK FOR EVERY NEED!</p>
+            </div>
+
+            <div class="popupBox">
+                <a href="#popup_content">Click Here</a>
+            </div>
+            <div class="content" id="popup_content">
+                <a href="#">
+                    <img src="../images/cross.png" alt="cross">
+                </a>
+
+                <p>Hello</p>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="rising">
+            <div class="slide">
+                <img src="../images/SpecialOffer1.avif" alt="slide1">
+                <p>Premium Standing Desk</p>
+                <p>$399.99 <del>$599.99</del></p>
+                <button id="cartBtn" onclick="addToCart('Premium Standing Desk','../images/SpecialOffer1.avif',399.99)">Shop Now</button>
+            </div>
+            <div class="slide">
+                <img src="../images/slide2.avif" alt="slide2">
+                <p>L-Shaped Standing Desk</p>
+                <p>$279.99 <del>$399.99</del></p>
+                <button id="cartBtn" onclick="addToCart('L-Shaped Standing Desk','../images/slide2.avif',279.99)">Shop Now</button>
+            </div>
+            <div class="slide">
+                <img src="../images/slide3.avif" alt="slide3">
+                <p>Electric Standing Desk</p>
+                <p>$229.99</p>
+                <button id="cartBtn" onclick="addToCart('Electric Standing Desk','../images/slide3.avif',229.99)">Show Now</button>
+            </div>
+            <div class="slide">
+                <img src="../images/SpecialOffer2.avif" alt="slide4">
+                <p>4-Leg Standing Desk</p>
+                <p>$899.99 <del>$999.99</del></p>
+                <button id="cartBtn" onclick="addToCart('4-Leg Standing Desk','../images/SpecialOffer2.avif',899.99)">Shop Now</button>
+            </div>
+            <div class="slide">
+                <img src="../images/SpecialOffer3.avif" alt="slide5">
+                <p>Pro L-Shaped Standing Desk</p>
+                <p>$549.99 <del>$649.99</del></p>
+                <button id="cartBtn" onclick="addToCart('Pro L-Shaped Standing Desk','../images/SpecialOffer3.avif',549.99)">Shop Now</button>
+            </div>
+            <div class="slide">
+                <img src="../images/slide6.avif" alt="slide6">
+                <p>Best L-Shaped Standing Desk</p>
+                <p>$799.99</p>
+                <button id="cartBtn" onclick="addToCart('Best L-Shaped Standing Desk','../images/slide6.avif',799.99)">Show Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+
+            <ul>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <a href="#">Follow Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <div class="phno">
+                <p>
+                    Phone Number : <span>+959 784 239 182</span><br>
+                    Email Address : <span>mail@standingdeskltd.com</span>
+                </p>
+            </div>
+            <div class="videodivone">
+                <img src="../images/footer1.gif" alt="footer1gif" class="videoone">
+            </div>
+
+            <div class="product">
+                <ul>
+                    <li>Standing Desk</li>
+                    <li>Office Chair</li>
+                    <li>Standing Desk Converters</li>
+                    <li>Sofas</li>
+                    <li>Office Accessories</li>
+                    <li>L-Shaped Standing Desk</li>                 
+                </ul>
+            </div>
+
+            <div class="footerimage">
+                <ul class="wrapper">
+                    <li class="icon facebook">
+                        <span class="tooltip">Facebook</span>
+                        <a href="https://www.facebook.com/"><span><i class="fa-brands fa-facebook-f"></i></span></a>
+                    </li>
+
+                    <li class="icon twitter">
+                        <span class="tooltip">Twitter</span>
+                        <a href="https://twitter.com/"><span><i class="fa-brands fa-twitter"></i></span></a>
+                    </li>
+
+                    <li class="icon instagram">
+                        <span class="tooltip">Instagram</span>
+                        <a href="https://www.instagram.com/"><span><i class="fa-brands fa-instagram"></i></span></a>
+                    </li>
+
+                    <li class="icon youtube">
+                        <span class="tooltip">Youtube</span>
+                        <a href="https://www.youtube.com/"><span><i class="fa-brands fa-youtube"></i></span></a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="videodiv">
+                <img src="../images/footer2.gif" alt="gif" class="video">
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Copyright &copy; Standingdesk.com - All Rights Reserved.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
