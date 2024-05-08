@@ -829,10 +829,10 @@ input[type="submit"]:hover {
     .videoone{
         width:100%;
     }
-    .footerimage{
+    /* .footerimage{
         position: relative;
-        top: 70%;
-    }
+        top: 80%;
+    } */
     .video{
         width: 300px;
         height: 250px;
@@ -858,6 +858,9 @@ input[type="submit"]:hover {
         display: flex;
         flex-flow:column;
         padding: 20px;
+    }
+    .col1{
+        font-size: 12px;
     }
     #Sec_Height{
         display: flex;
