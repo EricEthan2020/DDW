@@ -879,6 +879,7 @@ input[type="submit"]:hover {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
+        width: 10px;
       }
       
       .col {
@@ -901,6 +902,10 @@ input[type="submit"]:hover {
       .cp1{
         display: flex;
         width: max-content;
+      }
+      .video{
+        width: 200px;
+        height: 200px;
       }
       
    
