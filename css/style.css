@@ -830,8 +830,7 @@ input[type="submit"]:hover {
         width:100%;
     }
     /* .footerimage{
-        position: relative;
-        top: 80%;
+    
     } */
     .video{
         width: 300px;
@@ -871,5 +870,37 @@ input[type="submit"]:hover {
         display:flex;
         flex-flow: column;
     }
+    .copyright{
+        position: relative;
+        bottom: 10%;
+        width: 100%;
+    }
+    .containertest {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+      }
+      
+      .col {
+        display: flex;
+        padding: 20px;
+        column-gap: 30px;
+      }
+      .product_foot{
+        width: 50%;
+        font-size: 12px;
 
+      }
+      
+      .col-sm {
+        flex: 1;
+        padding: 1rem;
+        border: 1px solid #ddd;
+      }
+      .cp1{
+        display: flex;
+        width: max-content;
+      }
+      
+   
 }
