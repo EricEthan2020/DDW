@@ -7,6 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
+
 }
 
 /* Style for Header */
@@ -806,10 +807,15 @@ input[type="submit"]:hover {
     .Sec_Pic{
         display: flex;
         flex-flow: column;
+        margin-bottom: 120px;
     }
     .health{
         font-size: 10px;
         font-weight: bolder;
+    }
+    .giff{
+        width: 200px;
+        height: 200px;
     }
     .foot{
         margin-top: 5px; ;
@@ -821,13 +827,9 @@ input[type="submit"]:hover {
         column-count: 3;
     }
     .healthlist{
-        font-size: 75%;
-        margin: 20px;
+        font-size: 12px;
     }
-    .row{
-        padding: 20px;
-        overflow: hidden;
-    }
+   
     .td3{
         display: flex;
     }
@@ -840,14 +842,14 @@ input[type="submit"]:hover {
  
     }
     .test{
-        margin-top: 10.5%;
+        margin-top: 150px;
     }
     .col{
         width: 100%;
         display:flex;
     }
     .videoone{
-        width:100%;
+        width:80%;
     }
     /* .footerimage{
     
@@ -895,14 +897,9 @@ input[type="submit"]:hover {
         bottom: 10%;
         width: 100%;
     }
-    .containertest {
-        box-sizing: content-box;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-        width: 50%;
-      }
-      
+      .row{
+        padding: 20px;
+    }
       .col {
         display: flex;
         padding: 20px;
@@ -912,9 +909,23 @@ input[type="submit"]:hover {
       .product_foot{
         width: max-content;
         font-size: 14px;
-
       }
-      
+      .Contact_test{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+      }
+      .FB{
+        justify-content: center;
+        align-self: center;
+        display: inline;
+        width: 100%;
+      }
+      .wrapper{
+        display: flex;
+        justify-content: center;
+      }
       .col-sm {
         flex: 1;
         padding: 1rem;
