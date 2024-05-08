@@ -909,19 +909,22 @@ input[type="submit"]:hover {
       .product_foot{
         width: max-content;
         font-size: 14px;
+        line-height: 200%;
       }
       .Contact_test{
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-items: center;
+       gap: 20px;
+      }
+      .address{
+        margin-top: 20px;
       }
       .FB{
         justify-content: center;
         align-self: center;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
+        width: max-content;
       }
       .wrapper{
         display: flex;
