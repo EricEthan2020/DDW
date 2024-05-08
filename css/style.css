@@ -919,7 +919,8 @@ input[type="submit"]:hover {
       .FB{
         justify-content: center;
         align-self: center;
-        display: inline;
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
       }
       .wrapper{
