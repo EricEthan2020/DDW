@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
 
 body {
@@ -890,7 +890,7 @@ input[type="submit"]:hover {
         margin-bottom: 20px;
       }
       .product_foot{
-        width: 50%;
+        width: max-content;
         font-size: 12px;
 
       }
@@ -904,9 +904,10 @@ input[type="submit"]:hover {
         display: flex;
         width: max-content;
       }
-      .video,.videodiv{
+      .video{
         width: 200px;
         height: 200px;
       }
       
-    }
+   
+}
