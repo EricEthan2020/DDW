@@ -876,10 +876,11 @@ input[type="submit"]:hover {
         width: 100%;
     }
     .containertest {
+        box-sizing: content-box;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
-        width: 10px;
+        width: 50%;
       }
       
       .col {
