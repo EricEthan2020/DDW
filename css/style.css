@@ -821,6 +821,15 @@ input[type="submit"]:hover {
         justify-content: center;
         column-count: 3;
     }
+    .td3{
+        display: flex;
+    }
+    .yt1{
+        width: 480px;
+    }
+    .thirdcontainer{
+ 
+    }
     .col1{
         width: 100%;
         display:flex;
